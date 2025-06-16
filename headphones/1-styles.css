@@ -112,6 +112,42 @@ nav a:active {
   opacity: 0.9;
 }
 
+.what-we-do {
+  background-color: white;
+  color: #071629;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.what-we-do .title {
+  text-align: center;
+  font-size: 16px;
+  width: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 20px;
+}
+.item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.item img {
+  width: 55px;
+  height: 55px;
+  margin: 20px auto;
+}
+.item p {
+  font-size: 14px;
+  text-align: center;
+}
 /* ----------------- */
 /* Responsive Styles */
 /* ----------------- */

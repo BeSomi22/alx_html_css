@@ -112,6 +112,134 @@ nav a:active {
   opacity: 0.9;
 }
 
+.what-we-do {
+  background-color: white;
+  color: #071629;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.what-we-do .title {
+  text-align: center;
+  font-size: 16px;
+  width: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 20px;
+}
+.item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.what-we-do .item img {
+  width: 55px;
+  height: 55px;
+  margin: 20px auto;
+}
+.item p {
+  font-size: 14px;
+  text-align: center;
+}
+.our-results {
+  background-image: url("assets/headphones_hero_2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+.our-results-content {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.our-results-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+.min-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  width: 190px;
+  height: 190px;
+}
+
+.relatives {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.relatives h1 {
+  font-size: 46px;
+  margin: 0;
+}
+
+.relatives p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* ✅ Mobile Responsive */
+@media screen and (max-width: 480px) {
+  .our-results-content {
+    bottom: 30px;
+    padding: 0 1rem;
+  }
+
+  .our-results-content p {
+    font-size: 14px;
+  }
+
+  .item img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .relatives h1 {
+    font-size: 18px;
+  }
+
+  .relatives p {
+    font-size: 12px;
+  }
+}
+
 /* ----------------- */
 /* Responsive Styles */
 /* ----------------- */
